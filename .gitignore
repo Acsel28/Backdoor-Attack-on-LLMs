@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+*.egg-info/
+.installed.cfg
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+backdoor_env/
+.venv/
+
+# Python cache & test
+.pytest_cache/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+finetune_log*.txt
+run_finetune*.ps1
+
+# Model artifacts and large binaries
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+*.msgpack
+*.h5
+adapters/*/adapter_model.safetensors
+backdoored_adapter/adapter_model.safetensors
+backdoored_llama_*/adapter_model.safetensors
+
+# Hugging Face / transformer caches
+transformers_cache/
+huggingface_hub/
+*.cache
+
+# Runs / experiment outputs
+runs/
+
+# Databases
+*.sqlite3
+*.db
+
+# Misc
+__pycache__/
+.mypy_cache/
+.ruff_cache/
